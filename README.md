@@ -53,7 +53,7 @@ adapters/qwen3b_final/final/   the submitted LoRA adapter
 pip install -r requirements.txt     # torch: use the CUDA build already on your machine/Colab
 pip uninstall -y torchao            # Colab ships torchao 0.10, which PEFT rejects when loading onto an fp16 base
 export OPENAI_API_KEY=...           # only needed for the GPT-4o baseline and the LLM judge
-export HF_TOKEN=...                 # only needed to download the adapter from the (private) Hub repo
+export HF_TOKEN=...                 # not needed to load the public adapter
 ~~~
 Run all commands from the repo root.
 
@@ -98,7 +98,7 @@ Dev views: DEV-SEEN = `val_seen` rows of trained concerns (split `val_seen_dev`,
 DEV-NOVEL = `val_novel` + `val_seen` rows of held-out concerns.
 
 ## Using the adapter
-Hub (private, ask for access): `Bashaarat1/fixlane-qwen2.5-3b-concern-parser-lora`, or the local copy in
+Hugging Face Hub (public): [`Bashaarat1/fixlane-qwen2.5-3b-concern-parser-lora`](https://huggingface.co/Bashaarat1/fixlane-qwen2.5-3b-concern-parser-lora), or the local copy in
 `adapters/qwen3b_final/final`. The model card there has a complete loading snippet. Load the base in **4-bit NF4**
 exactly as in `predict.py` and use `common.SYSTEM_PROMPT_FT` verbatim. Serve as trained: merging the adapter into an
 fp16 base changed 25% of outputs (the adapter was trained against the 4-bit weights).
