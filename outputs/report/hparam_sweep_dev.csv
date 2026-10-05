@@ -1,0 +1,10 @@
+run,tests,params_M,train_min,seen_sys,seen_sev,seen_safety,nov_sys,nov_sev,nov_safety,nov_over,nov_diag_sim
+ft_os3_e3,"Run B (adopted), seed 42",29.9,10.24,1.0,1.0,1.0,0.6774,0.7258,0.45,0.0645,0.6093
+ft_clean_e3,no oversampling (first FT),29.9,7.73,0.9444,0.9333,0.4545,0.5484,0.5484,0.15,0.0645,0.5935
+hp_seed2,"noise floor: same recipe, different seed",29.9,10.64,0.9778,1.0,1.0,0.4839,0.4839,0.25,0.0806,0.5751
+hp_r4,lower LoRA rank,7.5,10.64,0.9667,0.8111,0.4545,0.4194,0.4839,0.15,0.0645,0.5188
+hp_r64,higher LoRA rank,119.7,11.16,1.0,1.0,1.0,0.629,0.5645,0.25,0.0968,0.6316
+hp_lr5e-5,4x lower learning rate,29.9,10.65,0.8667,0.5667,0.0,0.4355,0.4516,0.25,0.0645,0.5772
+hp_ep1,1 epoch instead of 3,29.9,3.55,0.9,0.5111,0.0,0.4516,0.3387,0.0,0.0323,0.6139
+hp_attn,attention-only LoRA,7.4,8.13,0.9333,0.7,0.2727,0.3548,0.4839,0.25,0.0161,0.5438
+hp_os5,stronger oversampling (5x),29.9,12.57,0.9444,1.0,1.0,0.5161,0.7258,0.3,0.0161,0.5496

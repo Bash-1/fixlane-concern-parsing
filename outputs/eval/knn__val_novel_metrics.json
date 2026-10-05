@@ -1,0 +1,132 @@
+{
+  "all": {
+    "n": 52,
+    "n_concerns": 10,
+    "strict_json": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "schema_valid": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "system_acc": {
+      "mean": 0.6923,
+      "ci95": [
+        0.4199,
+        0.9108
+      ]
+    },
+    "severity_acc": {
+      "mean": 0.5192,
+      "ci95": [
+        0.2037,
+        0.8001
+      ]
+    },
+    "symptom_sim": {
+      "mean": 0.3325,
+      "ci95": [
+        0.171,
+        0.5388
+      ]
+    },
+    "diag_sim": {
+      "mean": 0.4999,
+      "ci95": [
+        0.3831,
+        0.6384
+      ]
+    },
+    "symptom_judge": {
+      "mean": 0.2308,
+      "ci95": [
+        0.037,
+        0.4656
+      ]
+    },
+    "diag_judge": {
+      "mean": 0.5192,
+      "ci95": [
+        0.283,
+        0.7373
+      ]
+    },
+    "system_macro_f1": 0.5796,
+    "severity_macro_f1": 0.5238,
+    "severity_under_triage": 0.4038,
+    "severity_over_triage": 0.0769,
+    "safety_critical_recall": 0.3333
+  },
+  "novel": {
+    "n": 52,
+    "n_concerns": 10,
+    "strict_json": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "schema_valid": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "system_acc": {
+      "mean": 0.6923,
+      "ci95": [
+        0.4199,
+        0.9108
+      ]
+    },
+    "severity_acc": {
+      "mean": 0.5192,
+      "ci95": [
+        0.2037,
+        0.8001
+      ]
+    },
+    "symptom_sim": {
+      "mean": 0.3325,
+      "ci95": [
+        0.171,
+        0.5388
+      ]
+    },
+    "diag_sim": {
+      "mean": 0.4999,
+      "ci95": [
+        0.3831,
+        0.6384
+      ]
+    },
+    "symptom_judge": {
+      "mean": 0.2308,
+      "ci95": [
+        0.037,
+        0.4656
+      ]
+    },
+    "diag_judge": {
+      "mean": 0.5192,
+      "ci95": [
+        0.283,
+        0.7373
+      ]
+    },
+    "system_macro_f1": 0.5796,
+    "severity_macro_f1": 0.5238,
+    "severity_under_triage": 0.4038,
+    "severity_over_triage": 0.0769,
+    "safety_critical_recall": 0.3333
+  }
+}

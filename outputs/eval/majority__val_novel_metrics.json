@@ -1,0 +1,104 @@
+{
+  "all": {
+    "n": 52,
+    "n_concerns": 10,
+    "strict_json": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "schema_valid": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "system_acc": {
+      "mean": 0.2308,
+      "ci95": [
+        0.0,
+        0.5455
+      ]
+    },
+    "severity_acc": {
+      "mean": 0.3846,
+      "ci95": [
+        0.0889,
+        0.6949
+      ]
+    },
+    "symptom_sim": {
+      "mean": 0.2369,
+      "ci95": [
+        0.2087,
+        0.2606
+      ]
+    },
+    "diag_sim": {
+      "mean": 0.405,
+      "ci95": [
+        0.354,
+        0.4584
+      ]
+    },
+    "system_macro_f1": 0.0469,
+    "severity_macro_f1": 0.1852,
+    "severity_under_triage": 0.3462,
+    "severity_over_triage": 0.2692,
+    "safety_critical_recall": 0.0
+  },
+  "novel": {
+    "n": 52,
+    "n_concerns": 10,
+    "strict_json": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "schema_valid": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "system_acc": {
+      "mean": 0.2308,
+      "ci95": [
+        0.0,
+        0.5455
+      ]
+    },
+    "severity_acc": {
+      "mean": 0.3846,
+      "ci95": [
+        0.0889,
+        0.6949
+      ]
+    },
+    "symptom_sim": {
+      "mean": 0.2369,
+      "ci95": [
+        0.2087,
+        0.2606
+      ]
+    },
+    "diag_sim": {
+      "mean": 0.405,
+      "ci95": [
+        0.354,
+        0.4584
+      ]
+    },
+    "system_macro_f1": 0.0469,
+    "severity_macro_f1": 0.1852,
+    "severity_under_triage": 0.3462,
+    "severity_over_triage": 0.2692,
+    "safety_critical_recall": 0.0
+  }
+}

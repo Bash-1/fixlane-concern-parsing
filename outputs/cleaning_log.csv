@@ -1,0 +1,26 @@
+row_id,cluster,field,old,new,reason,input
+193,0,primary_symptom,vehicle issue,front brake squealing under braking,placeholder,"Tech notes: loud squealing from front brakes when stopping, cust waiting."
+372,1,suggested_diagnostic,check vehicle systems,test heater operation and check coolant level (or heat pump on EV),placeholder,Heater not getting warm in cold weather. asap if possible. asap if possible
+405,2,primary_symptom,vehicle issue,turn signal cancel failure,placeholder,"turn signal stays on after turning, doesn't cancel"
+196,3,primary_symptom,vehicle issue,perceived acceleration degradation,placeholder,Customer complains acceleration not as quick as when new but car is 3 years old
+81,15,vehicle_system,other,body,minority_label,"Confirmed sunroof making grinding noise when opening, customer waiting."
+43,18,vehicle_system,other,electrical,minority_label,"car won't wake up from sleep, had to do ahrd reset"
+268,19,suggested_diagnostic,check vehicle systems,perform oil consumption test and inspect for leaks,placeholder,"car burning oil, has to add a quart between oil changes, cust waiting. (intermittent)"
+324,20,severity,drivability,safety_critical,minority_label,veh pulls right under hard braking
+22,20,suggested_diagnostic,check vehicle systems,inspect caliper function both sides and check brake fluid contamination,placeholder,Veh pulls right under hard braking
+486,28,severity,comfort,drivability,minority_label,"car wont start, just clicks, jumpstart worked"
+87,31,vehicle_system,electrical,drivetrain,minority_label,"Car feels sluggish in eco mode but normal in sport, just bought used..."
+393,35,suggested_diagnostic,check vehicle systems,"test headlight switch, fuses, and bulbs",placeholder,Headlights not turning on with switch
+499,56,severity,comfort,drivability,minority_label,Charge port door won't open from app or button - not always - urgent
+289,57,severity,drivability,safety_critical,minority_label,Cust complaint - brakes work fine but customer says car takes longer to stop than before
+446,57,suggested_diagnostic,check vehicle systems,"measure stopping distance, inspect pad material and rotor surface, check brake fluid moisture",placeholder,Cust complaint - brakes work fine but cust says car takes longer to stop than before - not always
+185,58,severity,drivability,safety_critical,minority_label,"pulls left under braking NAD under acceleration, suspension noise over bumps too"
+261,77,vehicle_system,drivetrain,suspension,minority_label,Verified that steering wheel shakes at highway speeds
+230,79,severity,cosmetic,comfort,minority_label,"Per customer, verified that infotainment screen is black, won't turn on"
+171,81,severity,cosmetic,comfort,minority_label,Loud pop sound under car when starting in cold weather......
+194,83,suggested_diagnostic,check vehicle systems,inspect drive unit bearings and reduction gear,placeholder,"Owner says during road test, whining noise from motor area at 30-50 mph, getting worse week over week"
+313,85,severity,cosmetic,comfort,minority_label,"Customer states: heat pump not heating in cold weather, says heater fault on screen"
+361,85,severity,cosmetic,comfort,minority_label,"Heat pump not heating in cold weather, says heater fault on screen (intermittent)"
+467,86,suggested_diagnostic,check vehicle systems,scan EPS module for stored codes and inspect connector integrity,placeholder,"intermittent loss of power steering assist, happens once or twice a week..."
+281,87,vehicle_system,other,electrical,minority_label,rear backup camera shows blue screen - not always
+362,90,primary_symptom,vehicle issue,headlight failure,placeholder_nearest_neighbor,Headlihgts not turinng on w/ switch

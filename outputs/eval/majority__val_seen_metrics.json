@@ -1,0 +1,155 @@
+{
+  "all": {
+    "n": 100,
+    "n_concerns": 60,
+    "strict_json": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "schema_valid": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "system_acc": {
+      "mean": 0.25,
+      "ci95": [
+        0.1359,
+        0.3763
+      ]
+    },
+    "severity_acc": {
+      "mean": 0.58,
+      "ci95": [
+        0.4352,
+        0.7143
+      ]
+    },
+    "symptom_sim": {
+      "mean": 0.2105,
+      "ci95": [
+        0.1864,
+        0.2339
+      ]
+    },
+    "diag_sim": {
+      "mean": 0.3628,
+      "ci95": [
+        0.3211,
+        0.4041
+      ]
+    },
+    "system_macro_f1": 0.05,
+    "severity_macro_f1": 0.1835,
+    "severity_under_triage": 0.13,
+    "severity_over_triage": 0.29,
+    "safety_critical_recall": 0.0
+  },
+  "seen": {
+    "n": 99,
+    "n_concerns": 59,
+    "strict_json": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "schema_valid": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "system_acc": {
+      "mean": 0.2525,
+      "ci95": [
+        0.1359,
+        0.3763
+      ]
+    },
+    "severity_acc": {
+      "mean": 0.5758,
+      "ci95": [
+        0.4271,
+        0.7143
+      ]
+    },
+    "symptom_sim": {
+      "mean": 0.2112,
+      "ci95": [
+        0.1871,
+        0.2339
+      ]
+    },
+    "diag_sim": {
+      "mean": 0.3629,
+      "ci95": [
+        0.3206,
+        0.4014
+      ]
+    },
+    "system_macro_f1": 0.0504,
+    "severity_macro_f1": 0.1827,
+    "severity_under_triage": 0.1313,
+    "severity_over_triage": 0.2929,
+    "safety_critical_recall": 0.0
+  },
+  "novel": {
+    "n": 1,
+    "n_concerns": 1,
+    "strict_json": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "schema_valid": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "system_acc": {
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "severity_acc": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "symptom_sim": {
+      "mean": 0.1452,
+      "ci95": [
+        0.1452,
+        0.1452
+      ]
+    },
+    "diag_sim": {
+      "mean": 0.3516,
+      "ci95": [
+        0.3516,
+        0.3516
+      ]
+    },
+    "system_macro_f1": 0.0,
+    "severity_macro_f1": 1.0,
+    "severity_under_triage": 0.0,
+    "severity_over_triage": 0.0,
+    "safety_critical_recall": null
+  }
+}

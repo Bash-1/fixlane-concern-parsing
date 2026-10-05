@@ -1,0 +1,200 @@
+{
+  "all": {
+    "n": 100,
+    "n_concerns": 70,
+    "strict_json": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "schema_valid": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "system_acc": {
+      "mean": 0.99,
+      "ci95": [
+        0.9655,
+        1.0
+      ]
+    },
+    "severity_acc": {
+      "mean": 0.92,
+      "ci95": [
+        0.8416,
+        0.9796
+      ]
+    },
+    "symptom_sim": {
+      "mean": 0.7877,
+      "ci95": [
+        0.7416,
+        0.8321
+      ]
+    },
+    "diag_sim": {
+      "mean": 0.7441,
+      "ci95": [
+        0.7032,
+        0.7851
+      ]
+    },
+    "symptom_judge": {
+      "mean": 0.985,
+      "ci95": [
+        0.96,
+        1.0
+      ]
+    },
+    "diag_judge": {
+      "mean": 0.9,
+      "ci95": [
+        0.8532,
+        0.9418
+      ]
+    },
+    "system_macro_f1": 0.9933,
+    "severity_macro_f1": 0.9446,
+    "severity_under_triage": 0.08,
+    "severity_over_triage": 0.0,
+    "safety_critical_recall": 0.9286,
+    "latency_s_median": 0.855
+  },
+  "seen": {
+    "n": 90,
+    "n_concerns": 62,
+    "strict_json": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "schema_valid": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "system_acc": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "severity_acc": {
+      "mean": 0.9333,
+      "ci95": [
+        0.8539,
+        0.9893
+      ]
+    },
+    "symptom_sim": {
+      "mean": 0.7996,
+      "ci95": [
+        0.7494,
+        0.8471
+      ]
+    },
+    "diag_sim": {
+      "mean": 0.7546,
+      "ci95": [
+        0.7117,
+        0.7939
+      ]
+    },
+    "symptom_judge": {
+      "mean": 0.9944,
+      "ci95": [
+        0.9821,
+        1.0
+      ]
+    },
+    "diag_judge": {
+      "mean": 0.9,
+      "ci95": [
+        0.8506,
+        0.9438
+      ]
+    },
+    "system_macro_f1": 1.0,
+    "severity_macro_f1": 0.9515,
+    "severity_under_triage": 0.0667,
+    "severity_over_triage": 0.0,
+    "safety_critical_recall": 0.9286,
+    "latency_s_median": 0.889
+  },
+  "novel": {
+    "n": 10,
+    "n_concerns": 8,
+    "strict_json": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "schema_valid": {
+      "mean": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    "system_acc": {
+      "mean": 0.9,
+      "ci95": [
+        0.6667,
+        1.0
+      ]
+    },
+    "severity_acc": {
+      "mean": 0.8,
+      "ci95": [
+        0.5,
+        1.0
+      ]
+    },
+    "symptom_sim": {
+      "mean": 0.6803,
+      "ci95": [
+        0.5988,
+        0.7565
+      ]
+    },
+    "diag_sim": {
+      "mean": 0.6504,
+      "ci95": [
+        0.5797,
+        0.7292
+      ]
+    },
+    "symptom_judge": {
+      "mean": 0.9,
+      "ci95": [
+        0.7273,
+        1.0
+      ]
+    },
+    "diag_judge": {
+      "mean": 0.9,
+      "ci95": [
+        0.7273,
+        1.0
+      ]
+    },
+    "system_macro_f1": 0.8889,
+    "severity_macro_f1": 0.7917,
+    "severity_under_triage": 0.2,
+    "severity_over_triage": 0.0,
+    "safety_critical_recall": null,
+    "latency_s_median": 0.753
+  }
+}

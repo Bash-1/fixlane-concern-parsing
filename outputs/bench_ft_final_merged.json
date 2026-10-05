@@ -1,0 +1,7 @@
+{
+ "setup": "FT merged",
+ "p50_single_s": 5.65,
+ "p90_single_s": 6.62,
+ "batched_s_per_row": 0.455,
+ "peak_gpu_gb": 6.38
+}

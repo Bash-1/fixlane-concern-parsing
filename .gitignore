@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Model weights are on the Hugging Face Hub (GitHub rejects files > 100 MB)
+adapters/
+*.safetensors
+# Dataset belongs to Fixlane: place train/val/test.jsonl in data/raw/ to reproduce
+data/
+outputs/preds/hub_check__*.jsonl

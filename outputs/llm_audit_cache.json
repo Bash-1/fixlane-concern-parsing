@@ -1,0 +1,738 @@
+{
+ "0": {
+  "vehicle_system": "brakes",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is loud squealing from the front brakes during stops, so it belongs to the brake system. Brake noise under braking can indicate pad/rotor wear or other brake issues affecting safe stopping, so safety_critical is appropriate. The symptom label is accurate and specific, and inspecting front pads and rotors for wear is an appropriate first diagnostic step."
+ },
+ "1": {
+  "vehicle_system": "hvac",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is insufficient cabin heat in cold weather, an HVAC comfort issue. The symptom label is accurate. Diagnostic is appropriate and reasonably specific, including conventional coolant-heater checks and EV heat pump consideration."
+ },
+ "2": {
+  "vehicle_system": "electrical",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "The concern is an intermittent turn signal self-cancel failure after completing a turn, which is part of the lighting/steering-column electrical controls. A signal that remains on can mislead other road users, so it affects safe operation. The symptom label is accurate, and inspecting the turn signal stalk/cancel cam or cancel mechanism is an appropriate specific diagnostic direction."
+ },
+ "3": {
+  "vehicle_system": "drivetrain",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is reduced acceleration/propulsion performance compared with when new. This falls under drivetrain/propulsion and affects normal vehicle use rather than immediate safe operation. The symptom label is accurate, and the diagnostic is appropriate: confirm whether performance is within spec and evaluate battery health and motor/output performance, especially for an EV."
+ },
+ "4": {
+  "vehicle_system": "suspension",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is a harsh ride quality complaint on a new vehicle, most related to suspension/tires and primarily affecting comfort. The symptom label is accurate. The diagnostic is appropriate and specific: confirming normal ride characteristics for the trim and checking tire pressures are logical first steps."
+ },
+ "5": {
+  "vehicle_system": "engine",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "P0302 identifies a cylinder 2 misfire, and the concern occurs under load. This is an engine drivability issue. The symptom label is accurate and specific, and checking cylinder 2 spark plug, coil, and injector is an appropriate targeted diagnostic path."
+ },
+ "6": {
+  "vehicle_system": "hvac",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Driver-side-only warm A/C is an HVAC comfort concern, commonly related to dual-zone control/blend door issues or refrigerant charge imbalance. The symptom label matches, and the suggested diagnostic is appropriate for this complaint."
+ },
+ "7": {
+  "vehicle_system": "electrical",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Slow home AC charging is an EV charging/electrical concern affecting normal vehicle use and availability, not immediate safe operation. The symptom accurately captures reduced AC charging rate, and checking onboard charger output plus EVSE communication is an appropriate specific diagnostic path."
+ },
+ "8": {
+  "vehicle_system": "body",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Frunk not opening is a body/closure latch concern causing loss of access to storage, a convenience issue rather than safety or drivability. The symptom accurately captures the inoperative frunk release, and inspecting the latch actuator plus manual release cable is an appropriate specific diagnostic path."
+ },
+ "9": {
+  "vehicle_system": "drivetrain",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": false,
+  "reasoning": "A loud rear bang under hard acceleration points to a rear drivetrain/load-shift issue such as a drive unit mount, axle/CV/halfshaft, or related subframe component. It affects normal operation but no direct safety loss is described. The symptom label is accurate. The diagnostic is partly on target with mounts and halfshafts, but inverter inspection is not a specific or likely diagnostic path for a mechanical impact bang."
+ },
+ "10": {
+  "vehicle_system": "hvac",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Burning plastic odor only when the heater is on points to HVAC/heater/blower components or wiring overheating. This is a potential fire/smoke hazard, so it affects safe operation. The symptom label is accurate, and the diagnostic advice to inspect HVAC components for overheating and avoid heater use is appropriate."
+ },
+ "11": {
+  "vehicle_system": "brakes",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is brake noise only, occurring intermittently in the morning and disappearing after a few stops, which is typical of moisture/surface rust or pad condition. It does not indicate reduced braking ability, so severity is comfort. The symptom label is accurate and the diagnostic is appropriate and specific."
+ },
+ "12": {
+  "vehicle_system": "engine",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "The concern is an illuminated check engine light with no running symptoms. This is best classified under engine/powertrain and is not safety-critical since the vehicle reportedly runs fine, but it still affects normal use/serviceability. The symptom label is accurate, and scanning the engine control module for fault codes is the correct initial diagnostic."
+ },
+ "13": {
+  "vehicle_system": "electrical",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is an infotainment/software/OTA issue, which falls under electrical. Loss of infotainment features affects convenience/pleasure rather than safe operation or basic drivability. The primary symptom accurately captures the repeated OTA/software update failure, and the suggested diagnostic is appropriate and specific enough by attempting an OTA reset and verifying connectivity."
+ },
+ "14": {
+  "vehicle_system": "electrical",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Random security alarm activation is an electrical/security-system concern. It is mainly a nuisance and does not affect safe operation or drivability. The symptom label matches, and checking alarm event logs plus inspecting alarm-related sensors/latches is an appropriate diagnostic approach."
+ },
+ "15": {
+  "vehicle_system": "body",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is a grinding noise from the sunroof during opening, which falls under body/roof mechanisms and affects convenience rather than safety. The symptom label accurately captures the issue, and inspecting sunroof tracks and motor is an appropriate specific diagnostic step."
+ },
+ "16": {
+  "vehicle_system": "engine",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Idle shake that worsens under AC load with reduced fuel economy points to an engine rough idle/misfire/load compensation issue, possibly mounts or AC load contribution. It affects normal operation but is not directly safety-critical. The symptom label is accurate and the diagnostic steps are relevant and specific enough."
+ },
+ "17": {
+  "vehicle_system": "suspension",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Excessive bouncing points to worn shocks/struts or related suspension damping issue. This can reduce tire contact, stability, and braking control, so it affects safe operation. The symptom and diagnostic are accurate and specific."
+ },
+ "18": {
+  "vehicle_system": "electrical",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is an electrical/software wake-from-sleep failure that can prevent normal vehicle use and requires a hard reset, but it is not described as creating an immediate operating safety hazard. The primary symptom matches well. Checking wake/sleep logs and gateway module behavior is an appropriate diagnostic path for this type of vehicle wake failure."
+ },
+ "19": {
+  "vehicle_system": "engine",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is excessive engine oil consumption/burning oil requiring added oil between services. This affects normal vehicle use and potential engine reliability, not directly safe operation. The symptom label is accurate, and an oil consumption test plus leak inspection is an appropriate specific diagnostic path."
+ },
+ "20": {
+  "vehicle_system": "brakes",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Pulling to one side under hard braking is a brake-control issue that can affect safe stopping. The symptom label matches. Checking caliper operation side-to-side is an appropriate first diagnostic; fluid contamination is less specific but still relevant to brake system performance."
+ },
+ "21": {
+  "vehicle_system": "electrical",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "EV warning light with intermittent limp/power-limited mode to 30 mph indicates a high-voltage/EV propulsion electrical fault causing power reduction. The speed limitation can impair safe operation in traffic. Scanning BMS/drive unit modules for DTCs is an appropriate specific first diagnostic step."
+ },
+ "22": {
+  "vehicle_system": "brakes",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is inconsistent regenerative braking, which affects expected vehicle deceleration and safe operation. Regen involves EV drive/BMS controls but the reported symptom is braking performance. The symptom label is accurate, and scanning drive unit/BMS plus checking regen settings is an appropriate targeted diagnostic."
+ },
+ "23": {
+  "vehicle_system": "suspension",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Low-speed knocking while turning is most consistent with steering/suspension or front axle components; with no separate steering category, suspension is the best fit. Because possible tie rod/steering or suspension joint looseness can affect safe control, severity is safety_critical. The symptom label is accurate, and the diagnostic checks appropriate likely causes including CV joints, tie rods, and strut mounts."
+ },
+ "24": {
+  "vehicle_system": "electrical",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is EV AC charging interruption at home while DC fast charging works, pointing to the electrical charging system or home EVSE/supply. It affects normal vehicle use/charging availability but not immediate safe operation. The symptom label is accurate, and the diagnostic appropriately targets onboard AC charging input plus home charging equipment."
+ },
+ "25": {
+  "vehicle_system": "drivetrain",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Vehicle cannot exceed 65 mph under full accelerator input, indicating propulsion/drive power limitation rather than comfort or cosmetic issue. It affects normal use but does not by itself indicate immediate unsafe operation. The symptom label is accurate and specific, and scanning drive unit/BMS for derating or related fault codes is an appropriate EV-focused diagnostic path."
+ },
+ "26": {
+  "vehicle_system": "brakes",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "ABS warning light staying on indicates a brake/ABS system fault. Loss or impairment of ABS affects safe braking performance, so safety_critical is appropriate. The symptom label is accurate, and scanning the ABS module for fault codes is the correct specific diagnostic starting point."
+ },
+ "27": {
+  "vehicle_system": "body",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Wind noise from the passenger side at highway speeds is typically a body sealing/aerodynamic issue such as door/window seals, weatherstripping, mirror trim, or panel alignment. It affects comfort/noise levels, not safety or drivability. The symptom label is accurate and specific, and inspecting door seals and panel alignment is an appropriate diagnostic starting point."
+ },
+ "28": {
+  "vehicle_system": "electrical",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "No-start with clicking and successful jump start strongly indicates a weak/dead 12V battery or related starting/low-voltage circuit issue. This affects normal use but is not a safety-critical operating fault. The suggested diagnostic is appropriate and specific, including EV DC-DC converter consideration."
+ },
+ "29": {
+  "vehicle_system": "hvac",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is a clicking noise from the A/C when activated, which belongs to the HVAC system and affects comfort rather than safety or drivability. The symptom label matches, and checking the compressor and blend door actuators is an appropriate, specific diagnostic path for HVAC clicking noises."
+ },
+ "30": {
+  "vehicle_system": "suspension",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is a front-end clunk when driving over bumps, which points to suspension components. It affects normal use/ride quality but does not by itself indicate loss of safe control. The symptom label is accurate, and inspecting struts, sway bar links, and control arm bushings is specific and appropriate."
+ },
+ "31": {
+  "vehicle_system": "drivetrain",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "The concern is reduced propulsion/acceleration response tied to drive mode selection. Since sport mode is normal and eco mode commonly limits throttle response/power for efficiency, this is likely normal behavior rather than a fault, but it relates to drivability. The symptom and diagnostic are accurate and appropriately specific."
+ },
+ "32": {
+  "vehicle_system": "drivetrain",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Transmission slipping between gears is a drivetrain concern affecting normal operation. The symptom label is accurate, and checking transmission fluid condition/level plus scanning for codes is an appropriate initial diagnostic."
+ },
+ "33": {
+  "vehicle_system": "electrical",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Recurring 12V battery discharge/failure is an electrical concern that can prevent normal vehicle use or cause no-start conditions, but it is not directly safety-critical while driving. The symptom accurately captures the repeated 12V battery issue, and checking DC-DC converter charging function plus parasitic draw is an appropriate, specific diagnostic path."
+ },
+ "34": {
+  "vehicle_system": "body",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Driver door latching concern is a body/door hardware issue. A door that may not latch securely can open while driving, so it is safety-critical. The symptom and diagnostic correctly target the latch and striker alignment/mechanism."
+ },
+ "35": {
+  "vehicle_system": "electrical",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Headlights failing to turn on is an electrical lighting issue and can make the vehicle unsafe to operate, especially at night. The symptom label is accurate, and checking the headlight switch, fuses, and bulbs is an appropriate specific diagnostic starting point."
+ },
+ "36": {
+  "vehicle_system": "brakes",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Grinding noise during braking that is worsening strongly indicates brake friction material/rotor damage and can affect stopping ability, making it safety critical. The symptom is accurate, and inspecting pad wear and rotor surface condition is an appropriate specific diagnostic."
+ },
+ "37": {
+  "vehicle_system": "drivetrain",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Regenerative braking/energy recovery is part of EV propulsion behavior and is normally limited or disabled when the battery is at high/full state of charge because it cannot accept additional charge. Friction brakes remain available, so this is a drivability/behavior concern rather than safety-critical. The symptom and diagnostic correctly identify normal regen limiting and appropriate customer education."
+ },
+ "38": {
+  "vehicle_system": "engine",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is an illuminated check engine light with no reported performance issue. This points to an engine/powertrain control fault and warrants code scanning; it affects normal vehicle use/serviceability but is not immediately safety-critical."
+ },
+ "39": {
+  "vehicle_system": "electrical",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "EV reduced power after fast charging points to high-voltage battery/BMS or charging-related thermal/limit condition. It affects normal vehicle performance, so drivability rather than safety-critical absent a no-drive or shutdown condition. The symptom and diagnostic are accurate and specific to post-DC fast charge power limiting."
+ },
+ "40": {
+  "vehicle_system": "electrical",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": false,
+  "diagnostic_ok": true,
+  "reasoning": "EV charging/battery management issue affecting usable range, not immediate safety. The symptom label is ambiguous; it should state that charging is capped/stops at 80% despite a 100% setting, not 'charge limit override.' The diagnostic is reasonably relevant: verify charge/schedule settings and BMS-imposed limits, though it could also include app/in-vehicle charge limit profiles, location-based limits, software, and BMS faults."
+ },
+ "41": {
+  "vehicle_system": "suspension",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is an intermittent right-rear suspension clunk over bumps. This is a suspension issue affecting normal vehicle use/ride quality, but no stated loss of control or braking issue to make it safety-critical. The symptom label is accurate and specific, and inspecting the RR strut/shock area, sway bar end link, and bushings is an appropriate targeted diagnostic."
+ },
+ "42": {
+  "vehicle_system": "drivetrain",
+  "severity": "drivability",
+  "confidence": "medium",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "A loud front whine during acceleration points to a drivetrain/front drive unit or reduction gear concern, especially on an EV. It affects normal use and may indicate component wear, but no direct safety loss is stated. The symptom and diagnostic are accurate and reasonably specific, though other front-end rotating components could also be considered."
+ },
+ "43": {
+  "vehicle_system": "brakes",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is a changing brake pedal feel, hard initially then soft, which directly affects braking confidence and safe operation. The symptom label is accurate. Diagnostic is appropriate and specific for an EV, covering brake assist/booster function and regenerative-to-friction braking handoff behavior."
+ },
+ "44": {
+  "vehicle_system": "body",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is an interior body/trim issue on the rear passenger door panel. It does not affect safe operation or drivability, but may cause looseness/rattles and inconvenience, so comfort is more appropriate than cosmetic. The symptom label is accurate, and reattaching/replacing door panel clips is a specific likely repair path."
+ },
+ "45": {
+  "vehicle_system": "brakes",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Pedal vibration/judder only during highway-speed braking points to a brake system issue, commonly rotor runout or thickness variation. Because it occurs under braking, it can affect safe vehicle operation. The symptom label is accurate and the diagnostic is specific and appropriate, especially checking front rotor condition."
+ },
+ "46": {
+  "vehicle_system": "hvac",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "HVAC blower operates only on high speed while lower speeds are inoperative/intermittent. This is a comfort/convenience issue since airflow is still available on high. The symptom label matches, and a failed blower motor resistor/resistor connector is the typical specific cause for loss of lower blower speeds."
+ },
+ "47": {
+  "vehicle_system": "body",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is an inoperative/intermittent remote trunk release, a body/closure convenience feature. It does not affect safe operation or drivability. The symptom label matches, and checking both the trunk release actuator/latch circuit and key fob signal is an appropriate diagnostic starting point."
+ },
+ "48": {
+  "vehicle_system": "engine",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Warm-only rough idle is an engine performance/idle quality concern affecting normal drivability. The symptom label captures the concern, and checking codes plus fuel trims at operating temperature is an appropriate, specific starting diagnostic for a warm rough idle."
+ },
+ "49": {
+  "vehicle_system": "body",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Driver power window intermittent/inoperative is a body/accessory concern affecting convenience rather than safe operation. The symptom label matches, and testing the window motor and switch is an appropriate specific diagnostic starting point, though wiring/regulator checks may also be needed."
+ },
+ "50": {
+  "vehicle_system": "drivetrain",
+  "severity": "drivability",
+  "confidence": "medium",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Intermittent hum that varies with vehicle speed points to a rotating driveline/wheel-end component; the unspecified warning light supports scanning modules. It affects normal use and warrants diagnosis, but the phrasing does not clearly establish an immediate safety-critical failure."
+ },
+ "51": {
+  "vehicle_system": "hvac",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "The concern is intermittent/cyclic loss of A/C cooling, so it belongs to HVAC and primarily affects comfort rather than safety or drivability. The primary symptom accurately summarizes the repeated cold-warm-cold behavior. Monitoring refrigerant pressures and checking for evaporator icing are appropriate, specific diagnostic steps for this pattern."
+ },
+ "52": {
+  "vehicle_system": "suspension",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is a slight left pull/drift consistent with wheel alignment/steering geometry, best categorized under suspension. It affects normal driving/handling but is described as slight/intermittent, so drivability rather than safety-critical. The symptom and diagnostic are accurate and specific: road test to verify pull and alignment check are appropriate."
+ },
+ "53": {
+  "vehicle_system": "electrical",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "A TPMS light that remains on after tires are filled points to the tire pressure monitoring system, including sensors/module, which is an electrical monitoring system. Tire pressure warnings can affect safe operation due to tire/handling risk. The symptom is accurate and the diagnostic is appropriate: scan TPMS, attempt reset/relearn, and check sensor faults."
+ },
+ "54": {
+  "vehicle_system": "body",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Rainwater intrusion into the cabin/driver footwell is a body sealing/weatherstrip/drain issue. It mainly affects comfort/convenience and possible interior dampness, not immediate safe operation. The symptom accurately captures a driver-side cabin water leak, and a water test is the appropriate specific diagnostic to locate the source."
+ },
+ "55": {
+  "vehicle_system": "hvac",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Windshield defrost performance is an HVAC concern and can affect visibility, so it is safety-critical. The symptom label matches the complaint, and checking defrost airflow/mode operation and heater output is an appropriate specific diagnostic starting point."
+ },
+ "56": {
+  "vehicle_system": "electrical",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "A charge port door that will not open via app or button is an electrically actuated access/charging concern; on an EV it can prevent charging and normal use, but does not directly affect safe operation. The symptom is accurate, and checking the actuator plus manual release is an appropriate specific diagnostic path."
+ },
+ "57": {
+  "vehicle_system": "brakes",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Longer stopping distance indicates reduced braking performance, which directly affects safe operation. The symptom is accurate, and the diagnostic steps are relevant and specific: verifying stopping distance and checking pads, rotors, and brake fluid condition are appropriate first checks."
+ },
+ "58": {
+  "vehicle_system": "suspension",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": false,
+  "reasoning": "Pulling left under both braking and acceleration with suspension noise over bumps most strongly indicates a suspension/steering/alignment issue, though brakes or drivetrain could contribute. Because directional pull during braking/acceleration can affect vehicle control, severity is safety-critical. The symptom label captures the combined pull/noise concern, but the diagnostic is incomplete because it should also include brake, tire, steering, and drivetrain/mount checks, not only suspension and alignment."
+ },
+ "59": {
+  "vehicle_system": "body",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Power-fold side mirror not folding with the button is a body/accessory convenience concern, not a safety or drivability issue. The symptom label accurately captures the complaint, and testing the fold motor and switch is an appropriate specific diagnostic path, though wiring/module checks may also be needed if intermittent."
+ },
+ "60": {
+  "vehicle_system": "engine",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is reduced fuel economy/MPG, typically tied to engine/fuel-management or maintenance factors rather than a safety issue. It affects normal vehicle use/cost, so drivability fits. The symptom label accurately captures the complaint, and the diagnostic direction to review driving conditions and maintenance state is appropriate for an MPG-drop concern."
+ },
+ "61": {
+  "vehicle_system": "drivetrain",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Intermittent clunk when shifting between drive and reverse points to drivetrain lash, mount movement, or drive unit/axle play. It affects normal operation but is not clearly a safety-critical failure. The symptom label is accurate, and the diagnostic is appropriate and specific enough for this concern."
+ },
+ "62": {
+  "vehicle_system": "suspension",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Vehicle pulling to one side on a flat road after tire rotation is most consistent with alignment, tire pressure, tire conicity, or suspension geometry issues. This affects directional control, so it is safety-critical. The symptom label is accurate and specific. Checking tire pressures and performing/verifying a 4-wheel alignment is an appropriate diagnostic starting point, though tire condition/conicity should also be considered if alignment is in spec."
+ },
+ "63": {
+  "vehicle_system": "drivetrain",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Shudder only when accelerating from a stop is a launch/low-speed drivetrain concern affecting normal drivability. The symptom label is specific and accurate. Inspecting the drive unit and checking for motor torque ripple is an appropriate EV-focused diagnostic for launch shudder."
+ },
+ "64": {
+  "vehicle_system": "electrical",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Repeated overnight 12V battery discharge while parked points to an electrical parasitic draw or 12V battery/charging issue. This can prevent normal vehicle use, but the phrasing does not indicate an immediate safety hazard. The provided symptom and parasitic draw test on the 12V system are accurate and specific."
+ },
+ "65": {
+  "vehicle_system": "electrical",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is EV/high-voltage battery state of health degradation on a relatively new vehicle. This is an electrical system issue and may affect usable range/normal operation rather than safety. The symptom accurately captures the SoH concern, and the diagnostic appropriately calls for validating the measurement method and comparing against expected degradation."
+ },
+ "66": {
+  "vehicle_system": "hvac",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is that the AC functions but appears to consume significant EV range; this is HVAC-related and affects comfort/convenience rather than safety or core drivability. The symptom accurately captures perceived HVAC range impact, and the diagnostic of verifying normal HVAC energy consumption and educating the customer is appropriate and specific."
+ },
+ "67": {
+  "vehicle_system": "brakes",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is reduced regenerative braking deceleration, so it belongs under braking behavior even though EV power electronics/battery limits may cause it. It affects normal driving/one-pedal decel but does not state loss of service brakes, so drivability rather than safety-critical. Symptom is accurate, and checking regen calibration plus battery state-of-charge limits is an appropriate specific diagnostic path."
+ },
+ "68": {
+  "vehicle_system": "body",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "A latched frunk/hood that feels loose while driving can indicate latch/striker or alignment problems and creates a potential safety risk if the hood opens or shifts. The symptom label is accurate, and inspecting the frunk latch mechanism plus hood alignment is an appropriate diagnostic."
+ },
+ "69": {
+  "vehicle_system": "drivetrain",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Unexpected automatic shift into Park while driving, even at low speed, can abruptly stop or immobilize the vehicle and is a safety-critical gear/park-control concern. The symptom label is accurate, and pulling gateway/shifter module logs with engineering escalation is an appropriate specific diagnostic path for a possible shift-by-wire/control fault."
+ },
+ "70": {
+  "vehicle_system": "body",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Rear hatch lift struts/supports are part of the body hatch mechanism. Weak struts not holding the hatch up affects convenience and cargo access, not vehicle operation under the dataset definitions. The symptom and diagnostic are accurate and specific."
+ },
+ "71": {
+  "vehicle_system": "electrical",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Remote key fob inoperative is an electrical/accessory concern. Since the vehicle can still be unlocked with the phone app and no driving or safety issue is described, severity is comfort. The symptom label matches, and checking/replacing the fob battery and re-pairing is an appropriate specific diagnostic starting point."
+ },
+ "72": {
+  "vehicle_system": "electrical",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is an EV charging issue: vehicle will not charge at home on AC, while DC fast charging/Supercharging is OK, with a 3-flash LED indication. This is electrical and affects normal usability/range replenishment but is not inherently safety-critical. The symptom label is accurate and specific. The diagnostic direction is appropriate: check/interpret the relevant charging fault indication and inspect the home EVSE/circuit/AC charging path."
+ },
+ "73": {
+  "vehicle_system": "suspension",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is a delayed air suspension ride-height lift on cold start, which is clearly a suspension issue and can affect safe ride height/handling if driven before lifting. The symptom label is accurate and specific. The diagnostic is appropriate: scanning the air suspension module and checking compressor operation from cold directly targets the reported condition."
+ },
+ "74": {
+  "vehicle_system": "brakes",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "The concern is the parking brake intermittently not releasing/staying engaged, which is a brake system fault that can prevent or make operation unsafe. The symptom label is accurate, and inspecting the parking brake actuator and cable is an appropriate specific diagnostic starting point."
+ },
+ "75": {
+  "vehicle_system": "brakes",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Soft brake pedal going nearly to the floor indicates a hydraulic braking issue that can severely reduce stopping ability. The symptom label is accurate, and bleeding the brakes plus checking the master cylinder are appropriate specific diagnostics, though leak inspection would also be expected."
+ },
+ "76": {
+  "vehicle_system": "body",
+  "severity": "cosmetic",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is chipped paint on the front bumper, which is an appearance-only body issue. The symptom label is accurate, and documenting the damage for a cosmetic repair estimate is an appropriate diagnostic/next step."
+ },
+ "77": {
+  "vehicle_system": "suspension",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Highway-speed steering wheel vibration is typically related to wheel/tire balance, tire wear/cupping, alignment, or front-end suspension/steering components. It affects normal driving use but the phrasing does not indicate loss of steering or braking control. The symptom label is accurate, and balancing wheels plus inspecting tires for cupping is an appropriate, specific first diagnostic step."
+ },
+ "78": {
+  "vehicle_system": "suspension",
+  "severity": "safety_critical",
+  "confidence": "medium",
+  "symptom_ok": true,
+  "diagnostic_ok": false,
+  "reasoning": "Concern is an intermittent grinding noise during right turns; that is accurately captured by the symptom. Turning-related grinding most likely involves wheel bearing/hub, steering/suspension, brake contact, or CV axle, and can affect safe operation if a bearing/CV/steering component is failing. The diagnostic is partly reasonable because an extended road test is needed and CV joints/wheel bearings should be inspected, but specifying only the right side is not justified by 'turning right' and may miss the loaded/opposite side or brake/steering sources."
+ },
+ "79": {
+  "vehicle_system": "electrical",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Infotainment screen failure is an electrical/infotainment concern affecting convenience rather than safe vehicle operation. The symptom label accurately captures an inoperative display. Resetting the infotainment system and checking software updates are appropriate first-line diagnostics, especially for intermittent black-screen complaints, though power/fuse checks may also be needed if reset/update do not resolve it."
+ },
+ "80": {
+  "vehicle_system": "suspension",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Front-left inside-edge tire wear is most consistent with an alignment/suspension geometry issue. It affects normal vehicle use and tire life, with potential handling implications, but the phrasing does not indicate an immediate unsafe tire failure condition. The symptom and diagnostic are accurate and specific; checking alignment with focus on camber and toe is appropriate."
+ },
+ "81": {
+  "vehicle_system": "drivetrain",
+  "severity": "comfort",
+  "confidence": "medium",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "The concern is an intermittent loud pop from under the vehicle during cold starting/initial operation. A noise alone, with no loss of function or control, is best treated as a comfort issue. Drivetrain is the closest system because it may relate to torque reaction or mounts during startup/initial engagement, though the exact source is not certain. The primary symptom is accurate. The suggested diagnostic is reasonably specific and plausible for an underbody cold-start pop, covering drive unit mounts plus nearby suspension/brake sources."
+ },
+ "82": {
+  "vehicle_system": "electrical",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is EV battery state-of-charge/range dropping rapidly in cold weather, which falls under the electrical/high-voltage battery system. It affects usable range/normal operation but not immediate safe control of the vehicle. The symptom and diagnostic are accurate and appropriately specific, including verification of expected cold-weather loss and preconditioning behavior."
+ },
+ "83": {
+  "vehicle_system": "drivetrain",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Whining from the motor/drive unit area at 30-50 mph that is worsening suggests an EV drive unit, bearing, or reduction gear noise. It affects normal vehicle use but no direct safety issue is stated. The symptom is accurate and specific, and inspecting drive unit bearings and reduction gear is an appropriate diagnostic path."
+ },
+ "84": {
+  "vehicle_system": "electrical",
+  "severity": "drivability",
+  "confidence": "medium",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Intermittent multiple dashboard warning lights at startup points to an electrical/instrument cluster/module communication or low-voltage issue. It affects normal vehicle use and confidence in operation, but no specific loss of braking/steering/propulsion is stated, so drivability rather than safety-critical. The symptom label matches, and scanning all modules for fault codes is an appropriate first diagnostic step."
+ },
+ "85": {
+  "vehicle_system": "hvac",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is the HVAC heat pump not producing heat in cold weather with a heater fault message. No defrost/visibility issue is stated, so this is comfort rather than safety-critical. The symptom label is accurate, and scanning HVAC faults plus checking heat pump/refrigerant pressures is an appropriate specific diagnostic path."
+ },
+ "86": {
+  "vehicle_system": "suspension",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Intermittent loss of power steering assist is a steering/chassis concern, best mapped to suspension in the available categories. Loss of assist can significantly affect safe control of the vehicle, so it is safety-critical. The primary symptom accurately captures intermittent EPS failure, and scanning the EPS module plus inspecting connector integrity is an appropriate, specific diagnostic starting point."
+ },
+ "87": {
+  "vehicle_system": "electrical",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Intermittent blue screen from rear backup camera indicates loss of camera video/image, an electrical/vision system fault. It affects rear visibility while reversing, so it is safety-related. The symptom label matches, and testing the camera plus checking the wiring harness is an appropriate initial diagnostic."
+ },
+ "88": {
+  "vehicle_system": "electrical",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "For an EV, a sudden ~20% range loss with unchanged charging time points to high-voltage battery/BMS or charging/energy-use issues, which falls under electrical. It affects normal usability/range but does not directly make the vehicle unsafe. The symptom label accurately captures the concern, and the diagnostic is appropriate and specific: battery capacity/state-of-health testing and BMS calibration evaluation are logical first checks."
+ },
+ "89": {
+  "vehicle_system": "electrical",
+  "severity": "comfort",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Concern is an inoperative remote trunk release from the key fob, which is an electrical/body convenience feature. It does not affect safe operation or drivability. The symptom accurately describes the issue, and checking both the fob signal and trunk release actuator is appropriate and specific."
+ },
+ "90": {
+  "vehicle_system": "electrical",
+  "severity": "safety_critical",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "Headlights not turning on is an exterior lighting electrical fault that can make the vehicle unsafe to operate in low-light conditions. The symptom is accurate, and checking the switch, fuses, and bulbs is an appropriate initial diagnostic path."
+ },
+ "91": {
+  "vehicle_system": "drivetrain",
+  "severity": "drivability",
+  "confidence": "high",
+  "symptom_ok": true,
+  "diagnostic_ok": true,
+  "reasoning": "A loud whining from the front only during acceleration points to the front drive unit/reduction gear area on an EV. This affects normal operation/drive quality but is not inherently safety-critical from the phrasing."
+ }
+}
